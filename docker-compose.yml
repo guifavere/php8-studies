@@ -8,6 +8,8 @@ services:
             - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
             - ./src:/src
     php:
-        image: php:8.0-fpm
+        build:
+            context: .
+            dockerfile: PHP.Dockerfile
         volumes:
             - ./src:/src
