@@ -1,0 +1,26 @@
+{
+    "name": "guilherme/php8-studies",
+    "type": "project",
+    "require": {
+        "php": "^8.0"
+    },
+    "authors": [
+        {
+            "name": "guifavere",
+            "email": "guilherme.favere@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App/",
+            "Domain\\": "src/Domain/",
+            "Infra\\": "src/Infra/",
+            "Support\\": "src/Support"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "8.0"
+        }
+    }
+}

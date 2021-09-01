@@ -13,3 +13,4 @@ services:
             dockerfile: PHP.Dockerfile
         volumes:
             - ./src:/src
+            - ./vendor:/vendor
